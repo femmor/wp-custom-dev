@@ -6,17 +6,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
-		  rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-    <link rel="stylesheet" href="css/custom.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <?php wp_head(); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
@@ -160,7 +150,7 @@
                                     <h4>Shopping Cart</h4>
                                 </div>
                                 <div class="top-cart-items">
-                                    <div class="top-cart-item clearfix">
+                                    <div class="clearfix top-cart-item">
                                         <div class="top-cart-item-image">
                                             <a href="#"><img src="images/shop/small/1.jpg" /></a>
                                         </div>
@@ -170,7 +160,7 @@
                                             <span class="top-cart-item-quantity">x 2</span>
                                         </div>
                                     </div>
-                                    <div class="top-cart-item clearfix">
+                                    <div class="clearfix top-cart-item">
                                         <div class="top-cart-item-image">
                                             <a href="#"><img src="images/shop/small/6.jpg"/></a>
                                         </div>
@@ -181,7 +171,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="top-cart-action clearfix">
+                                <div class="clearfix top-cart-action">
                                     <span class="fleft top-checkout-price">$114.95</span>
                                     <button class="button button-3d button-small nomargin fright">
                                         View Cart
@@ -217,7 +207,7 @@
 
             <div class="content-wrap">
 
-                <div class="section header-stick bottommargin-lg clearfix" style="padding: 20px 0;">
+                <div class="clearfix section header-stick bottommargin-lg" style="padding: 20px 0;">
                     <div>
                         <div class="container clearfix">
                             <span class="badge badge-danger bnews-title">Breaking News:</span>
@@ -240,13 +230,13 @@
 
                     <!-- Post Content
                     ============================================= -->
-                    <div class="postcontent nobottommargin clearfix">
+                    <div class="clearfix postcontent nobottommargin">
 
                         <!-- Posts
                         ============================================= -->
                         <div id="posts">
 
-                            <div class="entry clearfix">
+                            <div class="clearfix entry">
                                 <div class="entry-image">
                                     <a href="#">
                                         <img class="image_fade" src="images/blog/standard/17.jpg">
@@ -259,7 +249,7 @@
                                         </a>
                                     </h2>
                                 </div>
-                                <ul class="entry-meta clearfix">
+                                <ul class="clearfix entry-meta">
                                     <li><i class="icon-calendar3"></i> 10th February 2014</li>
                                     <li>
                                         <a href="#">
@@ -290,14 +280,14 @@
                                 </div>
                             </div>
 
-                            <div class="entry clearfix">
+                            <div class="clearfix entry">
                                 <div class="entry-image">
                                     <iframe src="http://player.vimeo.com/video/87701971" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                 </div>
                                 <div class="entry-title">
                                     <h2><a href="blog-single-full.html">This is a Standard post with an Embedded Video</a></h2>
                                 </div>
-                                <ul class="entry-meta clearfix">
+                                <ul class="clearfix entry-meta">
                                     <li><i class="icon-calendar3"></i> 16th February 2014</li>
                                     <li><a href="#"><i class="icon-user"></i> admin</a></li>
                                     <li><i class="icon-folder-open"></i> <a href="#">Videos</a>, <a href="#">News</a></li>
@@ -309,7 +299,7 @@
                                 </div>
                             </div>
 
-                            <div class="entry clearfix">
+                            <div class="clearfix entry">
                                 <div class="entry-image">
                                     <div class="fslider" data-arrows="false" data-lightbox="gallery">
                                         <div class="flexslider">
@@ -324,7 +314,7 @@
                                 <div class="entry-title">
                                     <h2><a href="blog-single-small.html">This is a Standard post with a Slider Gallery</a></h2>
                                 </div>
-                                <ul class="entry-meta clearfix">
+                                <ul class="clearfix entry-meta">
                                     <li><i class="icon-calendar3"></i> 24th February 2014</li>
                                     <li><a href="#"><i class="icon-user"></i> admin</a></li>
                                     <li><i class="icon-folder-open"></i> <a href="#">Gallery</a>, <a href="#">Media</a></li>
@@ -336,14 +326,14 @@
                                 </div>
                             </div>
 
-                            <div class="entry clearfix">
-                                <div class="entry-image clearfix">
+                            <div class="clearfix entry">
+                                <div class="clearfix entry-image">
                                     <iframe width="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/115823769&amp;auto_play=false&amp;hide_related=true&amp;visual=true"></iframe>
                                 </div>
                                 <div class="entry-title">
                                     <h2><a href="single.html">This is an Embedded Audio Post</a></h2>
                                 </div>
-                                <ul class="entry-meta clearfix">
+                                <ul class="clearfix entry-meta">
                                     <li><i class="icon-calendar3"></i> 28th April 2014</li>
                                     <li><a href="#"><i class="icon-user"></i> admin</a></li>
                                     <li><i class="icon-folder-open"></i> <a href="#">Audio</a>, <a href="#">General</a></li>
@@ -359,12 +349,12 @@
 
                         <!-- Pagination
                         ============================================= -->
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-12">
-                                <a href="#" class="btn btn-outline-secondary float-left">
+                                <a href="#" class="float-left btn btn-outline-secondary">
                                     &larr; Older
                                 </a>
-                                <a href="#" class="btn btn-outline-dark float-right">
+                                <a href="#" class="float-right btn btn-outline-dark">
                                     Newer &rarr;
                                 </a>
                             </div>
@@ -378,7 +368,7 @@
                     <div class="sidebar nobottommargin col_last">
                         <div class="sidebar-widgets-wrap">
 
-                            <div class="widget clearfix">
+                            <div class="clearfix widget">
                                 <h4>Recipes of the Day</h4>
 
                                 <div class="portfolio-image">
@@ -391,7 +381,7 @@
                                 </div>
                             </div>
 
-                            <div class="widget clearfix">
+                            <div class="clearfix widget">
 
                                 <h4>Tag Cloud</h4>
                                 <div class="tagcloud">
@@ -437,7 +427,7 @@
                     </div>
 
                     <div class="col_half col_last tright">
-                        <div class="fright clearfix">
+                        <div class="clearfix fright">
                             <a href="#" class="social-icon si-small si-borderless si-facebook">
                                 <i class="icon-facebook"></i>
                                 <i class="icon-facebook"></i>
